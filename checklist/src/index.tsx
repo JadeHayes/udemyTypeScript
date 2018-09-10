@@ -1,0 +1,9 @@
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import './index.css';
+import Hello from './components/Hello';
+
+ReactDOM.render(
+  <Hello name='Yay now it is working' enthusiasmLevel={10}/>,
+  document.getElementById('root') as HTMLElement
+);
